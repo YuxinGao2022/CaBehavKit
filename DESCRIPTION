@@ -3,13 +3,25 @@ Type: Package
 Title: A Toolkit for Analyzing Neuronal Activity and Behavioral Data
 Version: 0.1.0
 Author: Gao Yuxin
-Maintainer: Gao Yuxin<2262457139@qq.com >
+Maintainer: Gao Yuxin <2262457139@qq.com>
 Description: The CaBehavKit package provides tools for the analysis of neuronal activity and
-behavior data, focusing on calcium imaging and behavioral data integration. It includes functions for preprocessing data, performing neuronal activity analysis, aligning neural and behavioral data, and generating visualizations. The package is designed to support research in neurobiology, particularly in studying the relationship between neuronal activity and behavior.
+    behavior data, focusing on calcium imaging and behavioral data integration. It includes
+    functions for preprocessing data, performing neuronal activity analysis, aligning neural
+    and behavioral data, and generating visualizations. The package is designed to support
+    research in neurobiology, particularly in studying the relationship between neuronal
+    activity and behavior.
 License: GPL-3
 Depends: R (>= 4.0.0)
-Imports: dplyr, ggplot2, tidyr, data.table, magrittr
-Suggests: testthat, knitr, rmarkdown
+Imports: 
+    dplyr,
+    ggplot2,
+    tidyr,
+    data.table,
+    magrittr
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 7.2.3
 Encoding: UTF-8
